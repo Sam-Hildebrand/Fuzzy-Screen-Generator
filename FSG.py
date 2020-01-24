@@ -29,12 +29,6 @@ class Handler:
         Gtk.main_quit()
 
     def save(self, *args):
-        print(name.get_text())
-        print(width.get_text())
-        print(height.get_text())
-        print(red.get_text())
-        print(green.get_text())
-        print(blue.get_text())
         img = GenImage(int(width.get_text()), int(height.get_text()), int(red.get_text()), int(green.get_text()), int(blue.get_text()))
         filename = str(name.get_text()) + ".png"
         img.save(filename)

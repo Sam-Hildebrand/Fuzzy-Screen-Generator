@@ -125,6 +125,7 @@
                   <object class="GtkEntry" id="red">
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
+                    <property name="placeholder_text" translatable="yes">0 - 255</property>
                     <property name="input_purpose">number</property>
                   </object>
                   <packing>
@@ -136,6 +137,7 @@
                   <object class="GtkEntry" id="green">
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
+                    <property name="placeholder_text" translatable="yes">0 - 255</property>
                     <property name="input_purpose">number</property>
                   </object>
                   <packing>
@@ -147,6 +149,7 @@
                   <object class="GtkEntry" id="blue">
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
+                    <property name="placeholder_text" translatable="yes">0 - 255</property>
                     <property name="input_purpose">number</property>
                   </object>
                   <packing>
